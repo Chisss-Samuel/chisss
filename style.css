@@ -1,0 +1,198 @@
+body{ background-image:url(Image/1204.jpg); height: fit-content; background-size: cover;}
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgb(218, 180, 14);
+}
+
+.left-side{
+    display:flex;
+
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 35px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.nav-link-wrapper{
+    height:23px;
+    border-bottom: 1.2px solid transparent;
+    transition: border-bottom 0.7s;
+}
+
+.nav-link-wrapper a {
+    color:#0817f1;
+    text-decoration: none;
+    transition: color 0.7s;
+    
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1.5px solid black;
+}
+.nav-link-wrapper a:hover{
+    color:black;
+}
+
+body {
+    padding: 5%;
+    padding-top: 0%;
+    }
+.item-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 500px) {
+    .container-1 {
+      display: flex;
+    
+    }
+    h1 {
+      color:blue;
+    }
+    h2 {
+      color:blue;
+    }
+  }
+  body {
+    padding: 5%;
+    padding-top: 1%;
+  }
+  .box-0 {
+    flex: 1;
+    order: 1;
+    padding: 1%;
+  }
+  
+  .box-1 {
+    flex: 1;
+    order: 2;
+    padding: 1%;
+  }
+  .box-2 {
+    flex: 1;
+    order: 3;
+    padding: 0%;
+    color: rgb(12, 11, 11);
+    align-self: flex-start;
+  }
+  .dev1 {
+    fill: black;
+  }
+  .dev2 {
+    fill: black;
+  }
+  .removed {
+    display: none;
+  }
+  .names {
+    width: 15%;
+  }
+  button {
+    color: rgb(245, 18, 18);
+    background: gray;
+    border: none;
+    outline: none;
+    /* width: 5%; */
+    text-align: left;
+  }
+  .box-0 {
+    flex-basis: 20%;
+  }
+  
+  .box-1 {
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box-2 {
+    flex-basis: 55%;
+  }
+  .align {
+    text-align: start;
+  }
+  
+  .image {
+    justify-items: auto;
+  }
+  .text-paragraph {
+    justify-content: center;
+  }
+  path {
+    fill: white;
+    transition: 1s fill;
+  }
+  path:hover {
+    fill: rgb(173, 143, 10);
+  }
+  .Body {
+    stroke: yellow;
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 50%;
+  }
+  .WindowDoor {
+    stroke: rgb(230, 179, 179);
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 10%;
+  }
+  .Chimney {
+    stroke: goldenrod;
+    stroke-width: 1px;
+    stroke-dasharray: 1;
+    fill: rgb(255, 255, 255, 5);
+    fill-opacity: 50%;
+  }
+  .removed {
+    display: none;
+  }
+  button {
+    position: relative;
+    color:blue;
+    font-size: 16pt;
+    background: rgb(223, 163, 53);
+    border: none;
+    outline: none;
+    left: 0%;
+    width: 250px;
+    text-align: left;
+  }
+  button.hover {
+    fill: whitesmoke;
+  }
+
+  .button {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+    background-size: 20%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1%;
+  }
+  .button:hover {
+    color: red;
+    background-color: black;
+  }
+  .two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .profile-image-wrapper img {
+    width: 100%;
+  }
+  .profile-content-wrapper{
+    padding: 30px;
+
+  }
+  .profile-content-wrapper h1{
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+  }
