@@ -1,4 +1,4 @@
-body{ background-image:url(Image/1204.jpg); height: fit-content; background-size: cover;}
+body{ background-image:url(1204.jpg); height: fit-content; background-size: cover;}
 .nav-wrapper{
     display:flex;
     justify-content: space-between;
